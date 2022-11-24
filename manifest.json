@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "SearXNG — Privacy Search Engine",
-  "version": "1.5",
-  "author": "Erghel",
-  "default_locale": "en",
+  "version": "1.0",
+  "author": "iStefy92",
+  "default_locale": "de",
   "description": "__MSG_extensionDescription__",
   "icons": {
     "48": "searxng48.webp"
@@ -20,9 +20,9 @@
     "search_provider": {
       "name": "SearXNG",
       "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://search.ononoki.org/search?q={searchTerms}",
+      "search_url": "https://search.stefan-schmieder.net/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://search.ononoki.org/autocompleter?q={searchTerms}",
+      "suggest_url": "https://search.stefan-schmieder.net/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
