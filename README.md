@@ -1,16 +1,16 @@
-# SearXNG-Web-Exstension (Unofficial)
-**SearXNG** is a free Internet metasearch engine that aggregates results from various search services and databases. Users are not tracked or profiled.
+# SearXNG-Web-Exstension (search.stefan-schmieder.net)
+**SearXNG** ist eine kostenlose Internet-Metasuchmaschine, die Ergebnisse aus verschiedenen Suchdiensten und Datenbanken aggregiert. Benutzer werden nicht getrackt oder profiliert.
 
 [**SearXNG**](https://github.com/searxng/searxng) is a fork of [**SearX**](https://github.com/searx/searx).
 
 [**Original SearXNG repository on GitHub**](https://github.com/searxng/searxng)
 
-# How does it work?
-Extension use `manifest.json` settings which change your main search engine.
+# Wie funktioniert es?
+Diese Erweiterung bedient sich `manifest.json`, um Ihre Standardsuchmaschine zu ändern.
 
-Example:
+Beispiel:
 
-(**Default settings**)
+(**Standardeinstellungen**)
 ```json
 {
   "chrome_settings_overrides": {
@@ -21,7 +21,7 @@ Example:
 }
 ```
 
-(**With addon**)
+(**Mit addon**)
 ```json
 {
   "chrome_settings_overrides": {
@@ -32,14 +32,13 @@ Example:
 }
 ```
 
-It means that your browser starts to use second link when you make search request.
+Dies bedeutet, dass Ihr Browser beginnt, den zweiten Link zu verwenden, wenn Sie eine Suchanfrage stellen.
 
-# Tricks
-If you want use **SearXNG** as support to main search engine do this:
-- add this addon into your browser
-- agree when browser shows you "Add this extension?"
-- disagree when browser shows "Do you want change your main search engine?"
-- use keywords like `@searxng, @searx, @sx` if you want use **SearXNG** when you make request
+Wenn Sie **SearXNG** als neue Standardsuchmaschine verwenden möchten, tun Sie dies:
+- fügen Sie dieses Addon zu Ihrem Browser hinzu
+- zustimmen, wenn der Browser "Diese Erweiterung hinzufügen?"
+- widersprechen, wenn der Browser "Möchten Sie Ihre Suchmaschine ändern?"
+- Verwenden Sie Schlüsselwörter wie `@searxng, @searx, @sx`, wenn Sie **SearXNG** verwenden möchten, wenn Sie eine Anfrage stellen
 
 # Contributors
 [**Rodion Borisov**](https://github.com/vintprox) - found `"suggestion_url"` and etc.  
